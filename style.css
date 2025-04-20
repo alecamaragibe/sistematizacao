@@ -1,0 +1,199 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #071921;
+    color: #60aa1b;
+    font-style: unset;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.logo h1 {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+.banner {
+    position: left;
+    display: flex;
+    align-items: center;
+}
+
+.banner img {
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 450px;
+}
+
+.banner-content {
+    width: 30%;
+    padding: 250px;
+}
+
+.banner-content h1 {
+    font-size: 2.1em;
+    margin-bottom: 20px;
+}
+
+.banner-content p {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+.btn-saiba-mais {
+    display: inline-block;
+    background-color: #0e0101;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.servicos {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.servico {
+    text-align: center;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.servico img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.servico h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.servico p {
+    font-size: 0.9em;
+    line-height: 1.4;
+    margin: 10px 0;
+}
+
+.btn-leia-mais {
+    display: inline-block;
+    background-color: #04090f;
+    color: #fff;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.formulario {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.formulario input,
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.formulario button {
+    background-color: #030609;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+}
+
+.formulario h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.equipe {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.equipe h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.equipe-membros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.equipe-membro {
+    width: auto;
+    margin: 0 20px 20px;
+}
+
+.equipe-membro img {
+    width: 200px;
+    height: 200px;
+    object-fit: scale-down;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.equipe-membro h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.equipe-membro p {
+    font-size: 1.1em;
+}
